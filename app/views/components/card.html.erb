@@ -1,2 +1,21 @@
-<h1>Components#card</h1>
-<p>Find me in app/views/components/card.html.erb</p>
+<div class="container">
+  <div class="row">
+    <div class="card mx-auto phil-card" style="width: 18rem;">
+      <img src="../assets/images/blue_stage.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">An item</li>
+        <li class="list-group-item">A second item</li>
+        <li class="list-group-item">A third item</li>
+      </ul>
+      <div class="card-body">
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+      </div>
+    </div>
+  </div>
+</div>
+<%= render 'links' %>
