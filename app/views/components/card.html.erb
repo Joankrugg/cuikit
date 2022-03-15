@@ -1,19 +1,20 @@
 <div class="container">
   <div class="row">
-    <div class="card mx-auto phil-card" style="width: 18rem;">
-      <img src="../assets/images/blue_stage.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">An item</li>
-        <li class="list-group-item">A second item</li>
-        <li class="list-group-item">A third item</li>
-      </ul>
-      <div class="card-body">
-        <a href="#" class="card-link">Card link</a>
-        <a href="#" class="card-link">Another link</a>
+    <div class= "mx-auto col-lg-4">
+      <div class="card phil-card" >
+        <%= cl_image_tag 'https://res.cloudinary.com/da2krghvd/image/upload/c_fill,h_3264,w_4920/v1641386801/Portfolio/WRE.jpg' %>
+        <div class="card-body phil-card-body">
+          <h5 class="card-title phil-card-title">Card title</h5>
+          <p class="card-text phil-card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div class="row">
+            <div class="col-lg-5 mx-auto">
+              <a href="#" class="card-link phil-card-button">Card link</a>
+            </div>
+            <div class="col-lg-5 mx-auto">
+              <a href="#" class="card-link phil-card-button ">Card link</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
